@@ -26,3 +26,12 @@ section{
     color: white;
     text-align: center;
 }
+
+
+.row .big{
+    height: 100px;
+}
+
+.row .regular{
+    max-height: 50px;
+}

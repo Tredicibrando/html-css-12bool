@@ -24,6 +24,8 @@
     flex: 0 0 auto;
 }
 
+/* justify */
+
 .justify-between{
     justify-content: space-between;
 }
@@ -36,6 +38,27 @@
     justify-content: center;
 }
 
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+/* Align */
+
+.align-center{
+    align-items: center;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.align-end{
+    align-items: flex-end;
+}
 
 
 
