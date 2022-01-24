@@ -1,5 +1,3 @@
-/* debug */
-
 html{
     font-family: 'Montserrat', sans-serif; 
 }
@@ -7,6 +5,8 @@ html{
 section{
     margin-bottom: 25px;
 }
+
+/* debug */
 
 .debug [class*="col"]{
     background-color: #006CFA;
@@ -23,5 +23,6 @@ section{
 [class*="col"] > .row [class*="col"] {
     background-color: #00E165;
     border: 1px solid #006CFA;
+    color: white;
+    text-align: center;
 }
-
