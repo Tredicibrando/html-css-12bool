@@ -1,8 +1,27 @@
 /* debug */
 
+html{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+section{
+    margin-bottom: 25px;
+}
+
 .debug [class*="col"]{
-    background-color: salmon;
+    background-color: #006CFA;
     padding: 20px 0;
-    border: 2px solid black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+[class*="col"] > .row{
+    padding: 0 20px;
+}
+
+[class*="col"] > .row [class*="col"] {
+    background-color: #00E165;
+    border: 1px solid #006CFA;
 }
 
